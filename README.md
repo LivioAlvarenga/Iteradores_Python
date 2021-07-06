@@ -1,4 +1,4 @@
-# Gerador, Iterável e Iterador como solução de alocação de memória utilizando lógica de programação lazy evaluation.
+# Gerador, Iterável e Iterador como solução de alocação de memória utilizando lógica de programação lazy evaluation no Python.
 
 >Livio Alvarenga - Jul/2021
 
@@ -63,7 +63,7 @@ Tesouro IPCA+ com Juros Semestrais | 15/05/2011 | 22/09/2008 | 1678,137281 | 664
 
 &nbsp;
 
-Ela será nosso objeto Iterável.Temos 65.760 linhas. Nosso objetivo é, independentemente do seu tamanho, aplicar um iterador e a lógica de programação avaliação preguiçosa ([lazy evaluation](https://pt.wikipedia.org/wiki/Avalia%C3%A7%C3%A3o_pregui%C3%A7osa)). 
+Ela será nosso objeto Iterável. Temos 65.760 linhas. Nosso objetivo é, independentemente do seu tamanho, aplicar um iterador e a lógica de programação avaliação preguiçosa ([lazy evaluation](https://pt.wikipedia.org/wiki/Avalia%C3%A7%C3%A3o_pregui%C3%A7osa)). 
 
 Vamos fazer isso de duas formas: uma criando uma classe com os métodos \_\_iter__ e \_\_next__ e a outra usando geradores. Durante toda aplicação vamos medir o uso de memória em nossas variáveis utilizando a função getsizeof( ).
 
